@@ -4,6 +4,7 @@ import Github from './assets/github-logo.png';
 import Instgram from './assets/instagram-logo.png';
 import Facebook from './assets/facebook-logo.png';
 import Whatsapp from './assets/whatsapp-logo.png';
+import Twiter from './assets/twitter-logo.png';
 
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
             <li>
               <img src={Whatsapp} alt="whatsapp" width="30px" />
               <a href="https://wa.me/628425237533" alt="whatsapp">shintanuria</a>
+            </li>
+            <li>
+              <img src={Twiter} alt="twiter" width="30px" />
+              <a href="https://https://twitter.com/sintha" alt="twiter">shintanuria</a>
             </li>
           </ul>
         </main>
