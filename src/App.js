@@ -3,6 +3,7 @@ import Profile from './assets/pp.jpeg';
 import Github from './assets/github-logo.png';
 import Instgram from './assets/instagram-logo.png';
 import Facebook from './assets/facebook-logo.png';
+import Whatsapp from './assets/whatsapp-logo.png';
 
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
             <li>
               <img src={Github} alt="github" width="30px" />
               <a href="https://github.com/shintanuria/" alt="github">shintanuria</a>
+            </li>
+            <li>
+              <img src={Whatsapp} alt="whatsapp" width="30px" />
+              <a href="https://wa.me/628425237533" alt="whatsapp">shintanuria</a>
             </li>
           </ul>
         </main>
